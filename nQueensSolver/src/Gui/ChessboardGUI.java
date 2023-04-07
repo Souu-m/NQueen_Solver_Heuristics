@@ -202,7 +202,7 @@ public class ChessboardGUI extends JFrame {
                 if(solver.equalsIgnoreCase("BFS") || solver.equalsIgnoreCase("DFS")){
                     statsTextArea.append("Total solutions : " + stats[2] + "\n");
                 }
-                statsTextArea.append("Elapsed time (nano): " + elapsedTime+ "\n");
+                statsTextArea.append("Elapsed time (Mili): " + elapsedTime+ "\n");
             }
 
         });
